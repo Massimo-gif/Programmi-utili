@@ -46,9 +46,6 @@ img{
 
 }  
 
-
-
-
 .menu{
     ;
     width: 100%;
@@ -87,71 +84,6 @@ img{
     z-index: 1;
     position: relative;
 }
-
-.dropdown {
-    background-color: transparent;
-    color: white;
-    padding: 4px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: transparent;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px transparent(0,0,0,0.2);
-    line-height:35px #高度距离
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
-.images{
-
-    width: 20px;
-    -webkit-transition: -webkit-transform 2s;
-    transition: transform 2s;
-
-
-}
-
-.dropdown:hover .images{
-    
-    transition-timing-function: linear;
-    transition-duration: 1s;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px) ;
-
-
-}
-
-
-
-
-
 
 #frattali{
     position: absolute;
